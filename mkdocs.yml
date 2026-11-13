@@ -1,0 +1,38 @@
+site_name: Quantum Computing — From Foundations to Engineering
+site_description: A bilingual undergraduate quantum computing handbook
+site_url: https://msellamiTN.github.io/quantum-computing-book/
+repo_url: https://github.com/msellamiTN/quantum-computing-book
+repo_name: msellamiTN/quantum-computing-book
+theme:
+  name: material
+  language: en
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - content.code.copy
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: cyan
+nav:
+  - Home: index.md
+  - Book:
+      - Roadmap: book/BOOK_BLUEPRINT.md
+      - Editorial charter: editorial/EDITORIAL_CHARTER.md
+      - Visual standards: editorial/VISUAL_STANDARDS.md
+      - Lab standard: labs/LAB_STANDARD.md
+  - English: ../manuscript/en/chapter-01/README.md
+  - Français: ../manuscript/fr/chapitre-01/README.md
+docs_dir: docs
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - tables
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.highlight
+  - pymdownx.superfences
+plugins:
+  - search
