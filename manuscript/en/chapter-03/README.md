@@ -62,6 +62,10 @@ The state \(|+\rangle\) is certain to produce + when measured in the X basis, bu
 | \(|+\rangle\) | \((1/\sqrt2,1/\sqrt2)\) | 1/2 | 1/2 |
 | \(|-\rangle\) | \((1/\sqrt2,-1/\sqrt2)\) | 1/2 | 1/2 |
 
+![X-basis measurement circuit](../../../figures/svg/fig-03-01-x-basis-measurement.svg)
+
+**Figure 3.1 — Measuring in the X basis.** Applying H before a computational-basis readout implements an X-basis measurement.
+
 ## 3.5 Global and relative phase
 
 Multiplying an entire ket by a phase \(e^{i\phi}\) leaves all measurement probabilities unchanged. Changing only one component generally changes relative phase and can affect later interference. For example, H maps |+⟩ to |0⟩ and |−⟩ to |1⟩; the minus sign is therefore operationally meaningful relative to the other component.

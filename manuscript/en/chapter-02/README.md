@@ -34,6 +34,10 @@ For example, if \(z=3+4i\), then \(z^*=3-4i\) and \(|z|^2=25\). Quantum probabil
 | Real part | \(\Re(z)\) | 3 |
 | Imaginary part | \(\Im(z)\) | 4 |
 
+![Complex number in the complex plane](../../../figures/svg/fig-02-01-complex-plane.svg)
+
+**Figure 2.1 — Complex plane and conjugation.** The conjugate reflects the point across the real axis; the modulus is its distance from the origin.
+
 ## 2.2 Vectors and inner products
 
 A state vector for a single qubit is written
