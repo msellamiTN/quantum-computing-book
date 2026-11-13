@@ -1,0 +1,2 @@
+# Qiskit 2.x teaching baseline. Pin exact versions at release freeze after compatibility tests.
+qiskit>=2.0,<3.0
