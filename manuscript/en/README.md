@@ -1,11 +1,11 @@
 # English Manuscript
 
-English is the master authoring edition. Chapter sources use Markdown with stable figure, table, equation and exercise IDs. The French edition remains synchronized.
+English is the master authoring edition. Chapter sources use stable figure, table, equation and exercise IDs. The French edition remains synchronized.
 
-## Chapters
+## Part I — Foundations
 - [Chapter 1 — What Is Quantum Computing?](chapter-01/README.md)
-- Chapter 2 — The Mathematics You Need (planned)
-- Chapter 3 — Quantum States and Dirac Notation (planned)
-- Chapter 4 — Multiple Qubits and Tensor Products (planned)
+- [Chapter 2 — The Mathematics You Need](chapter-02/README.md)
+- [Chapter 3 — Quantum States and Dirac Notation](chapter-03/README.md)
+- [Chapter 4 — Multiple Qubits and Tensor Products](chapter-04/README.md)
 
-Do not mark a chapter complete until scientific, visual, code, lab, reference and editorial reviews pass.
+Chapters 5–24 follow the approved [book blueprint](../../docs/book/BOOK_BLUEPRINT.md). A chapter is complete only after scientific, visual, code, lab, reference and editorial reviews pass.

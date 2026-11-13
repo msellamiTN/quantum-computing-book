@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="560" viewBox="0 0 900 560" role="img" aria-labelledby="t d">
+<title id="t">Complex number in the complex plane</title><desc id="d">The complex number z equals three plus four i is represented by the point three, four, with modulus five; its conjugate is three minus four i.</desc>
+<rect width="900" height="560" rx="20" fill="#f8fafc"/><text x="450" y="52" text-anchor="middle" font-family="Arial" font-size="28" font-weight="700" fill="#102a43">Complex plane: z = 3 + 4i</text>
+<line x1="120" y1="285" x2="790" y2="285" stroke="#334e68" stroke-width="3"/><line x1="300" y1="480" x2="300" y2="90" stroke="#334e68" stroke-width="3"/>
+<path d="M790 285 l-16 -9 v18 z" fill="#334e68"/><path d="M300 90 l-9 16 h18 z" fill="#334e68"/>
+<line x1="300" y1="285" x2="480" y2="165" stroke="#0b6e4f" stroke-width="5"/><line x1="480" y1="165" x2="480" y2="285" stroke="#94a3b8" stroke-width="2" stroke-dasharray="7 6"/><line x1="480" y1="165" x2="480" y2="405" stroke="#b45309" stroke-width="2" stroke-dasharray="7 6"/>
+<circle cx="480" cy="165" r="8" fill="#0b6e4f"/><circle cx="480" cy="405" r="8" fill="#b45309"/>
+<text x="495" y="155" font-family="Arial" font-size="22" fill="#0b6e4f">z = 3 + 4i</text><text x="495" y="432" font-family="Arial" font-size="20" fill="#b45309">z* = 3 − 4i</text>
+<text x="500" y="305" font-family="Arial" font-size="18" fill="#486581">3</text><text x="315" y="172" font-family="Arial" font-size="18" fill="#486581">4</text>
+<text x="800" y="310" font-family="Arial" font-size="20" fill="#243b53">Re</text><text x="318" y="88" font-family="Arial" font-size="20" fill="#243b53">Im</text>
+<text x="450" y="520" text-anchor="middle" font-family="Arial" font-size="18" fill="#486581">The modulus is the distance from the origin: |z| = √(3² + 4²) = 5.</text>
+</svg>

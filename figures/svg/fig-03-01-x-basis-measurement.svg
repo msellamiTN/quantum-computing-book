@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="360" viewBox="0 0 1000 360" role="img" aria-labelledby="t d">
+<title id="t">Measuring a qubit in the X basis</title><desc id="d">A qubit passes through a Hadamard gate and then a computational basis measurement, which implements measurement in the X basis.</desc>
+<rect width="1000" height="360" rx="20" fill="#f8fafc"/><text x="500" y="55" text-anchor="middle" font-family="Arial" font-size="29" font-weight="700" fill="#102a43">X-basis measurement using a Z-basis readout</text>
+<text x="80" y="185" font-family="Arial" font-size="23" fill="#243b53">|ψ⟩</text><line x1="150" y1="178" x2="830" y2="178" stroke="#334e68" stroke-width="4"/>
+<rect x="350" y="133" width="90" height="90" rx="10" fill="#dbeafe" stroke="#245b91" stroke-width="3"/><text x="395" y="190" text-anchor="middle" font-family="Arial" font-size="34" font-weight="700" fill="#174a7e">H</text>
+<rect x="650" y="132" width="92" height="92" rx="8" fill="#fef3c7" stroke="#b45309" stroke-width="3"/><text x="696" y="188" text-anchor="middle" font-family="Arial" font-size="28" font-weight="700" fill="#92400e">MZ</text>
+<text x="500" y="280" text-anchor="middle" font-family="Arial" font-size="20" fill="#486581">Apply H, then measure in the computational (Z) basis.</text><text x="500" y="315" text-anchor="middle" font-family="Arial" font-size="17" fill="#486581">This circuit is equivalent to measuring the input in the X basis.</text>
+</svg>

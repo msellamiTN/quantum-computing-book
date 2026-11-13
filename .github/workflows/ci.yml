@@ -5,7 +5,7 @@ on:
   pull_request:
   workflow_dispatch:
 jobs:
-  chapter-01:
+  foundations:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -13,11 +13,16 @@ jobs:
         with:
           python-version: "3.11"
           cache: pip
-      - name: Install dependencies
+      - name: Install Qiskit and development dependencies
         run: |
           python -m pip install --upgrade pip
           python -m pip install -r labs/chapter-01/requirements.txt -r requirements-dev.txt
-      - name: Run unit tests
+          python -m pip install numpy
+      - name: Run numerical tests
         run: python -m pytest -q
-      - name: Run standalone example
-        run: python scripts/chapter_01_superposition.py
+      - name: Run chapter scripts
+        run: |
+          python scripts/chapter_01_superposition.py
+          python scripts/chapter_02_linear_algebra.py
+          python scripts/chapter_03_measurement_bases.py
+          python scripts/chapter_04_tensor_bell.py
