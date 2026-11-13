@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="340" viewBox="0 0 1100 340" role="img" aria-labelledby="title desc">
+<title id="title">One-qubit Hadamard circuit</title><desc id="desc">A quantum wire starts at state zero, passes through an H gate, and exits in an equal superposition state.</desc>
+<rect width="1100" height="340" rx="22" fill="#f8fafc"/><text x="550" y="55" text-anchor="middle" font-family="Arial,sans-serif" font-size="30" font-weight="700" fill="#102a43">Hadamard transforms |0⟩ into an equal superposition</text>
+<text x="95" y="182" font-family="Arial,sans-serif" font-size="25" fill="#243b53">|0⟩</text><line x1="150" y1="175" x2="960" y2="175" stroke="#334e68" stroke-width="4"/>
+<rect x="465" y="130" width="100" height="90" rx="10" fill="#dbeafe" stroke="#245b91" stroke-width="3"/><text x="515" y="188" text-anchor="middle" font-family="Arial,sans-serif" font-size="36" font-weight="700" fill="#174a7e">H</text>
+<text x="980" y="165" font-family="Arial,sans-serif" font-size="22" fill="#0b6e4f">(|0⟩ + |1⟩)/√2</text>
+<text x="550" y="275" text-anchor="middle" font-family="Arial,sans-serif" font-size="19" fill="#486581">Unitary circuit: measurement is not included in this diagram.</text>
+</svg>
