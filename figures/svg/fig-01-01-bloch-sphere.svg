@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="640" viewBox="0 0 920 640" role="img" aria-labelledby="title desc">
+<title id="title">Bloch sphere schematic</title><desc id="desc">A unit sphere with computational basis states zero and one at opposite poles and axes x, y and z.</desc>
+<defs><linearGradient id="sphere" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#dcecff" stop-opacity=".9"/><stop offset="1" stop-color="#80aee0" stop-opacity=".22"/></linearGradient></defs>
+<rect width="920" height="640" rx="24" fill="#f8fafc"/>
+<text x="460" y="62" text-anchor="middle" font-family="Arial,sans-serif" font-size="30" font-weight="700" fill="#102a43">Bloch sphere — one-qubit pure states</text>
+<circle cx="450" cy="335" r="205" fill="url(#sphere)" stroke="#245b91" stroke-width="3"/>
+<ellipse cx="450" cy="335" rx="205" ry="72" fill="none" stroke="#527da5" stroke-width="2" stroke-dasharray="8 7"/>
+<ellipse cx="450" cy="335" rx="88" ry="205" fill="none" stroke="#527da5" stroke-width="2" transform="rotate(28 450 335)"/>
+<line x1="210" y1="335" x2="690" y2="335" stroke="#334e68" stroke-width="2"/><line x1="450" y1="570" x2="450" y2="90" stroke="#334e68" stroke-width="2"/>
+<line x1="300" y1="485" x2="600" y2="185" stroke="#334e68" stroke-width="2"/>
+<path d="M450 130 L440 151 L460 151 Z" fill="#334e68"/><path d="M680 335 L659 325 L659 345 Z" fill="#334e68"/>
+<circle cx="450" cy="130" r="9" fill="#0b6e4f"/><circle cx="450" cy="540" r="9" fill="#b45309"/>
+<text x="474" y="125" font-family="Arial,sans-serif" font-size="24" fill="#0b6e4f">|0⟩</text><text x="474" y="555" font-family="Arial,sans-serif" font-size="24" fill="#b45309">|1⟩</text>
+<text x="700" y="342" font-family="Arial,sans-serif" font-size="22" fill="#243b53">x</text><text x="460" y="93" font-family="Arial,sans-serif" font-size="22" fill="#243b53">z</text><text x="605" y="180" font-family="Arial,sans-serif" font-size="22" fill="#243b53">y</text>
+<text x="450" y="610" text-anchor="middle" font-family="Arial,sans-serif" font-size="17" fill="#486581">Schematic representation; not a physical device drawing.</text>
+</svg>
