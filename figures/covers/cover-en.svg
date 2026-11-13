@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="1900" viewBox="0 0 1400 1900" role="img" aria-labelledby="title desc">
+<title id="title">Quantum Computing: From Foundations to Engineering — book cover</title><desc id="desc">A dark navy technical book cover with a luminous abstract Bloch sphere, quantum circuit paths and the book title.</desc>
+<defs>
+ <radialGradient id="bg"><stop offset="0" stop-color="#173f5f"/><stop offset="1" stop-color="#071827"/></radialGradient>
+ <linearGradient id="glow" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#62d5d0"/><stop offset="1" stop-color="#5b9bd5"/></linearGradient>
+ <filter id="blur"><feGaussianBlur stdDeviation="18"/></filter>
+</defs>
+<rect width="1400" height="1900" fill="url(#bg)"/>
+<circle cx="1030" cy="880" r="300" fill="#0b7b83" opacity=".18" filter="url(#blur)"/>
+<g fill="none" stroke="url(#glow)" stroke-width="4" opacity=".72">
+ <circle cx="1000" cy="830" r="285"/><ellipse cx="1000" cy="830" rx="285" ry="100"/><ellipse cx="1000" cy="830" rx="115" ry="285" transform="rotate(35 1000 830)"/>
+ <path d="M1000 535V1125 M715 830H1285 M800 1030L1200 630"/>
+ <path d="M110 1260H1290 M110 1325H1290 M110 1390H1290" opacity=".24"/>
+ <path d="M260 1260V1390 M430 1260V1390 M600 1260V1390 M770 1260V1390 M940 1260V1390 M1110 1260V1390" opacity=".45"/>
+</g>
+<g fill="#d9f4f3"><circle cx="1000" cy="545" r="10"/><circle cx="1000" cy="1115" r="10"/><circle cx="715" cy="830" r="10"/><circle cx="1285" cy="830" r="10"/></g>
+<g font-family="Arial,sans-serif">
+ <text x="110" y="220" font-size="30" letter-spacing="8" fill="#62d5d0" font-weight="700">A PRACTICAL TECHNICAL HANDBOOK</text>
+ <text x="110" y="420" font-size="92" font-weight="700" fill="#ffffff">QUANTUM</text>
+ <text x="110" y="530" font-size="92" font-weight="700" fill="#ffffff">COMPUTING</text>
+ <text x="115" y="625" font-size="44" fill="#b9dce9">From Foundations to Engineering</text>
+ <text x="115" y="715" font-size="26" fill="#8fb8ca">Quantum algorithms · Qiskit · Real-world applications</text>
+ <text x="110" y="1530" font-size="32" fill="#ffffff" font-weight="700">LEARN  →  BUILD  →  TEST  →  EVALUATE</text>
+ <text x="110" y="1600" font-size="25" fill="#b9dce9">Bilingual English / French edition</text>
+ <text x="110" y="1760" font-size="30" letter-spacing="4" fill="#62d5d0" font-weight="700">OPEN LEARNING PROJECT</text>
+</g>
+</svg>
