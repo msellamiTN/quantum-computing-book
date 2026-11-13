@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="470" viewBox="0 0 1100 470" role="img" aria-labelledby="t d">
+<title id="t">Bell state preparation circuit</title><desc id="d">Two quantum wires q0 and q1. A Hadamard gate acts on q0, then a controlled NOT uses q0 as control and q1 as target.</desc>
+<rect width="1100" height="470" rx="22" fill="#f8fafc"/>
+<text x="550" y="55" text-anchor="middle" font-family="Arial,sans-serif" font-size="30" font-weight="700" fill="#102a43">Bell-state preparation</text>
+<text x="80" y="180" font-family="Arial,sans-serif" font-size="24" fill="#243b53">q0: |0⟩</text><text x="80" y="330" font-family="Arial,sans-serif" font-size="24" fill="#243b53">q1: |0⟩</text>
+<line x1="190" y1="172" x2="930" y2="172" stroke="#334e68" stroke-width="4"/><line x1="190" y1="322" x2="930" y2="322" stroke="#334e68" stroke-width="4"/>
+<rect x="330" y="127" width="90" height="90" rx="10" fill="#dbeafe" stroke="#245b91" stroke-width="3"/><text x="375" y="184" text-anchor="middle" font-family="Arial,sans-serif" font-size="34" font-weight="700" fill="#174a7e">H</text>
+<line x1="670" y1="172" x2="670" y2="322" stroke="#174a7e" stroke-width="4"/><circle cx="670" cy="172" r="12" fill="#174a7e"/><circle cx="670" cy="322" r="24" fill="#dbeafe" stroke="#174a7e" stroke-width="3"/><line x1="646" y1="322" x2="694" y2="322" stroke="#174a7e" stroke-width="3"/><line x1="670" y1="298" x2="670" y2="346" stroke="#174a7e" stroke-width="3"/>
+<text x="550" y="405" text-anchor="middle" font-family="Arial,sans-serif" font-size="23" fill="#0b6e4f">(|00⟩ + |11⟩) / √2</text><text x="550" y="440" text-anchor="middle" font-family="Arial,sans-serif" font-size="16" fill="#486581">H on q0, then CX(control q0, target q1); no measurement shown.</text>
+</svg>
